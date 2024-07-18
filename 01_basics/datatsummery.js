@@ -25,6 +25,28 @@ console.log(  typeof bigNumber)
  }
  // the return type of non primitive data type are function
  console.log(typeof  myfunctoin)
+ /////+++++++++++++++++++++++++++/////
+ //StacK Memory is used for primitive type data
+ // Heap memory is used for non primitive type data
+ let myyoutube="bihartechgenius"
+ let anothername=myyoutube
+ anothername="chaiaurcode"
+ console.log(myyoutube)
+ console.log(anothername);// value not changed beacause there is copy changed not main value changed dut to stack
+  let user={
+    email:"nirajkumarsah@.com",
+    upi: "user1"
+
+  }
+  let user2=user
+  user2.email="surajkumarsah"
+  console.log(user.email)
+  console.log(user2.email)// here the actual value changed due to the heap 
+  
+
+
+
+
 
 
 
