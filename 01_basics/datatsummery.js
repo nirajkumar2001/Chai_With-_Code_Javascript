@@ -19,7 +19,8 @@ console.log(typeof bigNumber)
     name:"hitesh",
     age: 22
 
- }
+ }// this is the creation of the object in the javascript
+
  const myfunctoin=function(){
     console.log("hello world")
  }
@@ -42,6 +43,8 @@ console.log(typeof bigNumber)
   user2.email="surajkumarsah"
   console.log(user.email)
   console.log(user2.email)// here the actual value changed due to the heap 
+  // in javascipt we are going to  use array as multiple data type in the value;
+  
   
 
 
