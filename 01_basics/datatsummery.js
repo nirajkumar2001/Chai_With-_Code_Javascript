@@ -9,7 +9,7 @@ const id=Symbol('123')
 const anotherId=Symbol('123')// if we pass the same value then both have the different symbol
 console.log(id==anotherId);
 const bigNumber=2364645644n
-console.log(  typeof bigNumber)
+console.log(typeof bigNumber)
 
  /* Non Primitive Data type
  Array, Object, Function */

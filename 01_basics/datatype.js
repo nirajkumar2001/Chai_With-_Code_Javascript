@@ -44,12 +44,14 @@ let state;
 // string => ""
 // boolean => true/false
 // null => standalone value
-// undefined => 
+// undefined =>  
 // symbol => unique
+// null => use kuch value nhi para hua hai
 
 
 // object
 
-console.log(typeof undefined); // undefined
+console.log(typeof undefined); // undefined mtlb maine value provide hi nhi kia hai
+
 console.log(typeof null); // object
 
